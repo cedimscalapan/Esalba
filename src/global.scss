@@ -1,0 +1,11 @@
+@import '@ionic/angular/css/core.css';
+@import '@ionic/angular/css/normalize.css';
+@import '@ionic/angular/css/structure.css';
+@import '@ionic/angular/css/typography.css';
+@import '@ionic/angular/css/padding.css';
+body { font-family: system-ui, sans-serif; }
+.intro { margin: 10px 4px 24px; }
+.intro h1 { font-size: 1.6rem; font-weight: 700; }
+.hint,.disclaimer { font-size: .85rem; line-height: 1.5; color: var(--ion-color-medium); }
+.disclaimer { padding: 15px 7px 35px; }
+.report-title { display:flex; flex-wrap:wrap; gap:8px; justify-content:space-between; align-items:center; }
